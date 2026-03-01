@@ -1,0 +1,31 @@
+plugins {
+    kotlin("jvm") version "2.3.0"
+    id("com.gradleup.shadow") version "9.3.1"
+}
+
+allprojects {
+    group = "xyz.thehiddenproject.thoreports"
+    version = "0.0.1"
+}
+
+repositories {
+    mavenCentral()
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+
+    }
+
+    apply {
+        plugin("kotlin")
+    }
+
+    kotlin {
+        jvmToolchain(21)
+    }
+}

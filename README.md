@@ -24,7 +24,6 @@ THOReports is licensed under the GNU AGPL v3. See the license file for more info
 
 # 💡 TODO:
 - github actions
-  - dependabot
   - build task
 - common module
 - paper module

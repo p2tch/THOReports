@@ -13,16 +13,17 @@ repositories {
 }
 
 subprojects {
+    apply {
+        plugin("kotlin")
+    }
+
     repositories {
         mavenCentral()
+        maven("https://repo.okaeri.cloud/releases")
     }
 
     dependencies {
-
-    }
-
-    apply {
-        plugin("kotlin")
+        implementation("eu.okaeri:okaeri-configs-yaml-snakeyaml:6.1.0-beta.1")
     }
 
     kotlin {

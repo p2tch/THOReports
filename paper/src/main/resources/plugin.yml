@@ -1,0 +1,6 @@
+name: THOReports
+version: 0.0.1
+main: xyz.thehiddenobject.thoreports.paper.bootstrap.PluginBootstrap
+author: p2tch
+website: thehiddenobject.xyz
+api-version: '1.21'

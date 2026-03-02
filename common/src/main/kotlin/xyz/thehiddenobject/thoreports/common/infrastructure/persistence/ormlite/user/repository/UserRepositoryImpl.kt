@@ -1,4 +1,4 @@
-package xyz.thehiddenobject.thoreports.common.infrastructure.persistence.ormlite.user
+package xyz.thehiddenobject.thoreports.common.infrastructure.persistence.ormlite.user.repository
 
 import com.j256.ormlite.support.ConnectionSource
 import xyz.thehiddenobject.thoreports.common.domain.user.User
@@ -6,6 +6,7 @@ import xyz.thehiddenobject.thoreports.common.domain.user.UserRepository
 import xyz.thehiddenobject.thoreports.common.infrastructure.persistence.mapper.toDomain
 import xyz.thehiddenobject.thoreports.common.infrastructure.persistence.mapper.toRecord
 import xyz.thehiddenobject.thoreports.common.infrastructure.persistence.ormlite.OrmLiteCrudRepository
+import xyz.thehiddenobject.thoreports.common.infrastructure.persistence.ormlite.user.UserRecord
 import java.util.UUID
 
 class UserRepositoryImpl(
